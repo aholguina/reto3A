@@ -21,7 +21,7 @@ public class Client implements Serializable{
     private Integer idClient;
 
     private String  email;
-    private String  pasword;
+    private String  password;
     private String  name;
     private Integer age;
 
@@ -39,11 +39,11 @@ public class Client implements Serializable{
     public Client() {
     }
 
-    public Client(Integer idClient, String email, String pasword, String name, Integer age, List<Message> messages,
+    public Client(Integer idClient, String email, String password, String name, Integer age, List<Message> messages,
             List<Reservation> reservations) {
         this.idClient = idClient;
         this.email = email;
-        this.pasword = pasword;
+        this.password = password;
         this.name = name;
         this.age = age;
         this.messages = messages;
@@ -66,12 +66,12 @@ public class Client implements Serializable{
         this.email = email;
     }
 
-    public String getPasword() {
-        return pasword;
+    public String getPassword() {
+        return password;
     }
 
-    public void setPasword(String pasword) {
-        this.pasword = pasword;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public String getName() {
