@@ -50,8 +50,8 @@ public class ClientService {
                     
                 }
 
-                if(Client.getPasword()!=null){
-                    g.get().setPasword(Client.getPasword());
+                if(Client.getPassword()!=null){
+                    g.get().setPassword(Client.getPassword());
                 }
 
                 if(Client.getName() !=null){
